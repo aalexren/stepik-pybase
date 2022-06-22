@@ -32,3 +32,8 @@ print((a + b) / 2)
 
 Подробное объяснение:  
 1. [Деление с остатком отрицательных чисел](https://skysmart.ru/articles/mathematic/delenie-chisel-s-ostatkom)
+
+
+
+# Полезные ссылки
+1. [Полезный визуализатор выполнения кода в python](https://pythontutor.com/render.html#mode=display)
