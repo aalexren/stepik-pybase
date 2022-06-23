@@ -113,19 +113,15 @@ while num <= n*n:
     for i in range(idnt, n - idnt - 1, 1): # right
         mtx[idnt][i] = num
         num += 1
-        if num > n*n: break
     for i in range(idnt, n - idnt, 1): # down
         mtx[i][n-idnt-1] = num
         num += 1
-        if num > n*n: break
     for i in range(n - idnt - 1, idnt + 1, -1): # left
         mtx[n-idnt-1][i-1] = num
         num += 1
-        if num > n*n: break
     for i in range(n - idnt - 1, idnt, -1): # up
         mtx[i][idnt] = num
         num += 1
-        if num > n*n: break
     idnt += 1
 
 for i in range(n):
